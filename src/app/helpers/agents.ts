@@ -1,0 +1,77 @@
+import { Agent } from "../models/Agent";
+
+
+export const agentsList: Agent[] = [
+  {
+    id: 1,
+    firstName: 'John',
+    lastName: 'Doe',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+152123456',
+  },
+  {
+    id: 2,
+    firstName: 'Chloe',
+    lastName: 'Decker',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+982123456',
+  },
+  {
+    id: 3,
+    firstName: 'Lucifer',
+    lastName: 'Morningstar',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+  {
+    id: 4,
+    firstName: 'Adam',
+    lastName: 'Levis',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+  {
+    id: 5,
+    firstName: 'Queen',
+    lastName: 'Smith',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+  {
+    id: 6,
+    firstName: 'Anna',
+    lastName: 'Harter',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+  {
+    id: 7,
+    firstName: 'Emma',
+    lastName: 'Brick',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+  {
+    id: 8,
+    firstName: 'Alex',
+    lastName: 'Chipster',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+  {
+    id: 9,
+    firstName: 'Megan',
+    lastName: 'Walker',
+    img: 'icon-user',
+    desctription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.',
+    phone: '+2365123456',
+  },
+];

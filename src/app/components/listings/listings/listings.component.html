@@ -1,0 +1,31 @@
+<div
+  class="listings"
+  [@elementAnimations]="propertiesList.length"
+  (@elementAnimations.done)="animationDone($event)">
+  <div
+    class="listing element"
+    *ngFor="let item of propertiesList"
+    routerLink="/detail/{{item.propertyId}}">
+    <div class="listing__image">
+      <img src="{{ item.propertyImageUrl }}" alt="image" />
+    </div>
+    <div class="listing__description">
+      <div class="listing__heading">
+        <h4 class="heading-4">{{ item.propertyAddress }}</h4>
+        <span class="dash">&mdash;</span>
+        <span class="type">{{ item.propertyType }}</span>
+      </div>
+      <div class="listing__info">
+        <span>{{ item.numberOfBedrooms }} bedrooms </span>
+        <span class="circle">&#11044;</span>
+        <span>{{ item.numberOfBedrooms }} bathrooms </span>
+        <span class="circle">&#11044;</span>
+        <span>{{ item.squareMeters }}m </span>
+      </div>
+      <div class="listing__footer">
+        <span class="price">${{ item.price }}</span>
+        <span class="date">{{ item.timeAdded }}</span>
+      </div>
+    </div>
+  </div>
+</div>
